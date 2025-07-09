@@ -1,16 +1,33 @@
-# justcheck
+# 🛍️ ShopApp – Flutter Firebase Auth App
 
-A new Flutter project.
+A Flutter-based authentication app using Firebase Authentication with support for:
+- 📧 Email/Password Sign-In
+- 🔐 Google Sign-In
+- 🔁 Password Reset
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Sign up with email and password
+- Sign in with Google (using OAuth 2.0)
+- Firestore integration to save user data
+- Responsive design for Web and Android
+- Error handling with user-friendly messages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📷 Screenshots
+
+| Sign In Page | Sign Up Page |
+|--------------|--------------|
+| ![Sign In](assets/screens/signin.png) | ![Sign Up](assets/screens/signup.png) |
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. 📦 Clone the Repository
+```bash
+git clone https://github.com/yourusername/shopapp-auth.git
+cd shopapp-auth
