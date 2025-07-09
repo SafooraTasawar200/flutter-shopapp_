@@ -1,0 +1,30 @@
+[debug] [2025-07-06T06:54:21.274Z] ----------------------------------------------------------------------
+[debug] [2025-07-06T06:54:21.279Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:sdkconfig web 1:142732379073:web:fcfe78a0c14bbc0d8a6540 --json
+[debug] [2025-07-06T06:54:21.279Z] CLI Version:   14.9.0
+[debug] [2025-07-06T06:54:21.280Z] Platform:      win32
+[debug] [2025-07-06T06:54:21.280Z] Node Version:  v22.17.0
+[debug] [2025-07-06T06:54:21.280Z] Time:          Sun Jul 06 2025 11:54:21 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-07-06T06:54:21.281Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-06T06:54:21.287Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-06T06:54:21.288Z] > authorizing via signed-in user (safooratasawar@gmail.com)
+[debug] [2025-07-06T06:54:21.294Z] Checked if tokens are valid: true, expires at: 1751788057541
+[debug] [2025-07-06T06:54:21.294Z] Checked if tokens are valid: true, expires at: 1751788057541
+[debug] [2025-07-06T06:54:21.296Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:142732379073:web:fcfe78a0c14bbc0d8a6540/config [none]
+[debug] [2025-07-06T06:54:25.144Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:142732379073:web:fcfe78a0c14bbc0d8a6540/config 200
+[debug] [2025-07-06T06:54:25.144Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/-/webApps/1:142732379073:web:fcfe78a0c14bbc0d8a6540/config {"projectId":"myshopapp-84e8f","appId":"1:142732379073:web:fcfe78a0c14bbc0d8a6540","storageBucket":"myshopapp-84e8f.firebasestorage.app","apiKey":"AIzaSyA9lqoESiSRfEbPEyqiyYO-Hpi8njvTpwc","authDomain":"myshopapp-84e8f.firebaseapp.com","messagingSenderId":"142732379073","measurementId":"G-Z68JBS4F3X"}
+[info] {
+  "projectId": "myshopapp-84e8f",
+  "appId": "1:142732379073:web:fcfe78a0c14bbc0d8a6540",
+  "storageBucket": "myshopapp-84e8f.firebasestorage.app",
+  "apiKey": "AIzaSyA9lqoESiSRfEbPEyqiyYO-Hpi8njvTpwc",
+  "authDomain": "myshopapp-84e8f.firebaseapp.com",
+  "messagingSenderId": "142732379073",
+  "measurementId": "G-Z68JBS4F3X"
+}
+[debug] [2025-07-06T06:54:33.478Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+[error] 
+[error] Error: An unexpected error has occurred.
