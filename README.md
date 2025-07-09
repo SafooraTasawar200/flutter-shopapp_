@@ -17,17 +17,4 @@ A Flutter-based authentication app using Firebase Authentication with support fo
 
 ---
 
-## 📷 Screenshots
 
-| Sign In Page | Sign Up Page |
-|--------------|--------------|
-| ![Sign In](assets/screens/signin.png) | ![Sign Up](assets/screens/signup.png) |
-
----
-
-## 🔧 Setup Instructions
-
-### 1. 📦 Clone the Repository
-```bash
-git clone https://github.com/yourusername/shopapp-auth.git
-cd shopapp-auth
